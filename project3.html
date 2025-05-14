@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 - Anu Elasarapu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            color: #00aaff;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #00aaff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #0080cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Project 3</h1>
+
+        <h2>Project Description</h2>
+        <p>The Visitor Pass Generator using OCR is a project aimed at automating the process of generating visitor passes. By leveraging Optical Character Recognition (OCR) technology, specifically Tesseract, the system extracts text from scanned or photographed visitor ID documents. The extracted information is then processed and used to generate a personalized digital visitor pass. The project ensures accuracy through pre-processing techniques like noise removal and text enhancement. The system features a user-friendly interface that allows for real-time pass generation and printing, making the entire visitor check-in process more efficient and seamless.</p>
+
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>Python</li>
+            <li>OpenCV</li>
+            <li>Tesseract OCR</li>
+            <li>Flask</li>
+            <li>HTML/CSS (for user interface)</li>
+            <li>Jinja2 (templating engine in Flask)</li>
+        </ul>
+
+        <h2>Project Goals</h2>
+        <p>The primary goal of the Visitor Pass Generator using OCR project is to automate and streamline the visitor check-in process by leveraging Optical Character Recognition (OCR) technology. The system aims to accurately extract text from visitor ID documents, such as IDs or badges, and generate a digital visitor pass with minimal manual input. The project focuses on ensuring high accuracy through image pre-processing techniques, including noise removal and text enhancement. Another key goal is to provide a seamless user experience with a simple and intuitive interface for real-time pass generation and printing. Ultimately, the project seeks to improve efficiency, reduce human error, and enhance security in environments where visitor management is essential.</p>
+
+        <h2>Challenges</h2>
+        <p>During the development of the Visitor Pass Generator using OCR project, several challenges were encountered. One of the primary hurdles was achieving high accuracy in text extraction from ID images, as OCR can sometimes struggle with distorted or low-quality images. To overcome this, advanced image pre-processing techniques such as noise removal, image scaling, and text enhancement were implemented to improve the quality of the input data. Another challenge was ensuring that the system could handle different types of visitor IDs with varying fonts, layouts, and qualities, which required fine-tuning the OCR model and adding custom configurations. Additionally, integrating the OCR process with the Flask-based web application posed some technical difficulties in terms of real-time pass generation and managing user inputs effectively. Despite these challenges, the project successfully delivered a robust, user-friendly solution for visitor pass generation.</p>
+
+        <a href="index.html" class="back-button">Back to Home</a>
+    </div>
+</body>
+</html>
